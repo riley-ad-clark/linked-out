@@ -9,7 +9,7 @@
 }
 
 .container {
-    width: min(100% - 40px, 1280px);
+    width: min(100% - 10px, 1280px);
     margin-inline: auto;
 }
 
@@ -23,6 +23,14 @@
     place-items: center;
     justify-content: center;
     align-items: center;
+}
+
+body{
+    background-color: var(--bg-second-darkest);
+}
+
+.text {
+    color: var(--font-white);
 }
 
 @keyframes fadeIn {
@@ -41,13 +49,13 @@
     justify-content: space-between;
 }
 
-.dispair-air-logo {
+.linked-out-logo {
     margin-top: 5px;
-    background-image: url(../img/logo.png);
+    background-image: url(../images/linked-out-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 75px;
-    width: 80px;
+    height: 200px;
+    width: 200px;
     visibility: visible;
 }
 
@@ -127,6 +135,123 @@ i.fa-bars {
     display: none;
 }
 /*--------end of header-------- */
+
+/*--------THE PAGE--------*/
+
+.thePage {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: var(--bg-second-darkest);
+}
+
+.box {
+    margin: 30px 20px;
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid #209752; */
+}
+
+/*--------userInfo--------*/
+
+.userInfo {
+    width: 300px;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+
+.profileBox {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: var(--bg-second-lightest);
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--bg-second-darkest);
+    position: relative;
+}
+
+.name {
+    margin: 10px 0px 0px 5px;
+}
+
+.job {
+    font-size: 15px;
+    color: #e0e0e0;
+}
+
+.email {
+    margin-top: 5px;
+}
+
+.social {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.infoBox{
+    width: 147.5px;
+    height: 50px;
+    text-align: center;
+    font-size: 13px;
+    background-color: var(--bg-second-lightest);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.numbers {
+    font-size: 17px;
+    margin-top: 3px;
+    font-weight: 600;
+}
+
+.connectTxt {
+    letter-spacing: 0.7px;
+}
+
+.userContact {
+    width: 300px;
+    height: 50px;
+    background-color: var(--bg-second-lightest);
+    border-radius: 8px;
+    line-height: 50px;
+    margin: 5px 0px;
+}
+
+.userTxt {
+    font-size: 16px;
+    margin-left: 28px;
+}
+
+/*--------end of userInfo--------*/
+
+/*--------pageFloor--------*/
+
+.box2{
+    width: 700px;
+    height: 900px;
+    border: 1px solid #209752;
+}
+
+/*--------end of pageFloor--------*/
+
+/*--------otherUsers--------*/
+
+/*--------end of otherUsers--------*/
+
+/*--------end of the page--------*/
 
 /*--------footer--------*/
 
