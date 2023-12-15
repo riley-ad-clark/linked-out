@@ -312,9 +312,9 @@ i.fa-bars {
 
 .postImg {
     position: absolute;
-    bottom: 0px;
+    bottom: 5px;
     left: 15px;
-    font-size: 10px;
+    font-size: 25px;
     color: var(--font-white);
     cursor: pointer;
 }
