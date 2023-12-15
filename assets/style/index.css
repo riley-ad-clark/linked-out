@@ -141,7 +141,7 @@ i.fa-bars {
 .thePage {
     display: flex;
     justify-content: center; 
-    align-items: center; 
+    /* align-items: center;  */
     background-color: var(--bg-second-darkest);
 }
 
@@ -158,7 +158,7 @@ i.fa-bars {
     width: 300px;
     border-radius: 8px;
     align-items: center;
-    
+    position: sticky;
 }
 
 .profileBox {
@@ -239,7 +239,8 @@ i.fa-bars {
 
 /*--------pageFloor--------*/
 
-.box2{
+.pageFloor{
+    margin-top: 30px;
     width: 700px;
     height: 900px;
     border: 1px solid #209752;
