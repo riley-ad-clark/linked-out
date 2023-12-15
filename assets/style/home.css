@@ -127,10 +127,12 @@ button:hover {
 .sign-up a {
     text-decoration: none;
     color: var(--col-main-green);
+    transition: 0.3s ease-in-out;
 }
 
 .sign-up a:hover {
     color: var(--col-main-green-hover);
+    transition: 0.3s ease-in-out;
 }
 
 .login-box {
