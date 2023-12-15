@@ -266,6 +266,30 @@ i.fa-bars {
     color: var(--font-white);
 }
 
+.send {
+    border: 1px solid red;
+    width: 670px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.postImg {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    font-size: 40px;
+    color: var(--font-white);
+    cursor: pointer;
+}
+
+.postImg input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    bottom: 0;
+    left: 0;
+}
+
 .submit {
     position: absolute;
     bottom: 15px; 
