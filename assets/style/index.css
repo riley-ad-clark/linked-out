@@ -344,9 +344,9 @@ i.fa-bars {
 /*--------otherUsers--------*/
 
 .youKnow {
-    width: 400px;
+    width: 350px;
     height: 50px;
-    margin-bottom: 2.5px;
+    margin-bottom: 10px;
     background-color: var(--bg-second-lightest);
     border-radius: 8px;
     text-align: center;
@@ -354,12 +354,37 @@ i.fa-bars {
     letter-spacing: 0.5px;
 }
 
+.yK {
+    font-size: 22px;
+}
+
 .people {
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
     height: 75px;
     border-radius: 8px;
     margin: 2.5px 0px;
     background-color: var(--bg-second-lightest);
+}
+
+.person {
+    display: block; /* Ensure each person div is a block element */
+    margin-bottom: 10px; /* Add some margin between each person */
+}
+
+.peoplePic {
+    width: 50px;
+    height: 50px;
+    background-color: var(--bg-second-darkest);
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 12.5px;
+}
+
+.peopleName {
+    line-height: 75px;
+    margin-left: 12.5px;
 }
 
 /*--------end of otherUsers--------*/
