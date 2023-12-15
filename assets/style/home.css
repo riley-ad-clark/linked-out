@@ -11,7 +11,32 @@
 body {
     background-color: var(--bg-second-darkest);
     color: var(--font-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
+
+.container.center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*----header----*/
+.container.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.logo {
+    max-height: 90px;
+    max-width: 100%;
+}
+
+/*----end of header----*/
 
 /*----login-form----*/
 .logo {
@@ -28,12 +53,13 @@ body {
 .two-columns {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .login-form {
     display: flex;
     flex-direction: column;
+    width: fit-content;
 }
 
 input[type="text"] {
@@ -88,3 +114,42 @@ button:hover {
 .login-box {
     height: 500px;
 }
+
+/*----footer----*/
+.foot {
+    justify-content: space-between;
+}
+
+footer {
+    background-color: var(--bg-second-darkest);
+    color: #fff;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+
+nav.foot {
+    line-height: 80px;
+}
+
+nav.foot a i {
+    line-height: 80px;
+    color: #a7a7a7;
+    padding: 0 10px;
+    font-size: 27px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav.foot a i:hover {
+    line-height: 80px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.copyright {
+    line-height: 80px;
+    color: #b7b7b7;
+    font-size: 14px;
+}
+/*----end of footer----*/
