@@ -6,7 +6,7 @@
         <meta name="author" content="Riley Clark, Zander Toews">
         <meta name="description" content="Linked Out">
         <meta name="keywords" content="web developement, html, css, javascript, js">
-        <link rel="icon" href="./assets/images/favicon1.png" type="image/x-icon">
+        <link rel="icon" href="./assets/images/favicon.jpeg" type="image/x-icon">
         <link rel="stylesheet" href="./assets/style/home.css" type="text/css" media="all">
         <link rel="stylesheet" href="./assets/style/reset.css" type="text/css" media="all">
         <script src="./assets/script/home.js" defer></script>
@@ -19,6 +19,45 @@
         <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
     </head>
     <body>
-        
+        <!----header---->
+            <div class="container head">
+                <img class="logo" src="./assets/images/linked-out-logo.png" alt="Link Out logo">
+            </div>
+        <!----end of header---->
+        <!----log in sect---->
+        <div class="container center">
+            <div class="two-columns">
+                <div class="image-box">
+                    <img class="main-image" src="./assets/images/index-main-image.jpeg" alt="man walking towards city scape with big green links above his head">
+                </div>
+                <div class="login-box">
+                    <form class="login-form center">
+                    <h2>Welcome Back!</h2>
+                        <input type="text" id="username" name="username" placeholder="Email">
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        <p>Forgot password?</p>
+                        <button type="button">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!----end of login sect---->
+        <!----footer---->
+        <footer>
+            <div class="container flex foot">
+                <nav class="foot">
+                    <ul>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-x-youtube"></i></a>
+                    </ul>
+                </nav>
+                <div class="copyright">
+                    <p class="copy">&copy;2023 Linked Out | All rights reserved</p>
+                </div> 
+            </div>
+        </footer>
+        <!----end of footer---->
     </body>
 </html>
