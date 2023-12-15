@@ -314,7 +314,7 @@ i.fa-bars {
     position: absolute;
     bottom: 0px;
     left: 15px;
-    font-size: 40px;
+    font-size: 10px;
     color: var(--font-white);
     cursor: pointer;
 }
