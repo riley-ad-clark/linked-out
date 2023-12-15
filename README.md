@@ -3,7 +3,7 @@
 ## Credentials
 The log-in credentials are as follows:
 
-Email: example@email.com
+Email: example@email.com<br>
 Password: password
 
 ## Demo 
