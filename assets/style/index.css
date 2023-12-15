@@ -167,6 +167,23 @@ i.fa-bars {
     margin-left: 10px;
 }
 
+.ben.post {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+    padding: 15px;
+}
+
+.post-inner-name {
+    display: flex;
+}
+
+.post-inner-name p {
+    margin-top: 23px;
+    color: var(--font-white);
+}
+
 .profilePic.second:hover {
     cursor: pointer;
 }
@@ -192,7 +209,7 @@ i.fa-bars {
 }
 
 .postingTxt {
-    padding: 15px 15px;
+    padding: 0px 15px 15px 15px
 }
 
 /*--------userInfo--------*/
@@ -353,7 +370,7 @@ i.fa-bars {
 
 .posting {
     width: 700px;
-    height: 200px;
+    height: fit-content;
     border-radius: 8px;
     background-color: var(--bg-second-lightest);
     align-items: center;
