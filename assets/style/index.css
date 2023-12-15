@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-body{
+body {
     background-color: var(--bg-second-darkest);
     display: flex;
     flex-direction: column;
@@ -51,6 +51,7 @@ body{
 
 .container.flex.head {
     justify-content: space-between;
+    animation: fadeIn 0.25s ease-in forwards;
 }
 
 .left-sect {
@@ -174,11 +175,13 @@ i.fa-bars {
 /*--------THE PAGE--------*/
 
 .thePage {
+    opacity: 0;
     display: flex;
     justify-content: center; 
     background-color: var(--bg-second-darkest);
     flex-grow: 1;
     padding-bottom: 400px;
+    animation: fadeIn 0.5s ease-in forwards 0.25s;
 }
 
 .box {
