@@ -28,6 +28,9 @@
 
 body{
     background-color: var(--bg-second-darkest);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .text {
@@ -174,6 +177,8 @@ i.fa-bars {
     display: flex;
     justify-content: center; 
     background-color: var(--bg-second-darkest);
+    flex-grow: 1;
+    padding-bottom: 400px;
 }
 
 .box {
@@ -181,6 +186,10 @@ i.fa-bars {
     width: 400px;
     height: 300px;
     /* border: 1px solid #209752; */
+}
+
+.postingTxt {
+    padding: 15px 15px;
 }
 
 /*--------userInfo--------*/
@@ -339,6 +348,15 @@ i.fa-bars {
     transition: all 0.3s ease-in-out;
 }
 
+.posting {
+    width: 700px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: var(--bg-second-lightest);
+    align-items: center;
+    margin: 5px 0px;
+}
+
 /*--------end of pageFloor--------*/
 
 /*--------otherUsers--------*/
@@ -404,6 +422,7 @@ footer {
     width: 100%;
     text-align: center;
     line-height: 80px;
+    margin-top: 10px;
 }
 
 nav.foot {
