@@ -141,7 +141,6 @@ i.fa-bars {
 .thePage {
     display: flex;
     justify-content: center; 
-    /* align-items: center;  */
     background-color: var(--bg-second-darkest);
 }
 
@@ -243,7 +242,43 @@ i.fa-bars {
     margin-top: 30px;
     width: 700px;
     height: 900px;
-    border: 1px solid #209752;
+    justify-content: center;
+    /* border: 1px solid #209752; */
+}
+
+.postBox {
+    position: relative;
+    width: 700px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: var(--bg-second-lightest);
+    align-items: center;
+}
+
+.postTxt {
+    width: 670px;
+    height: 50px;
+    border-radius: 8px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: var(--bg-second-darkest);
+    color: var(--font-white);
+}
+
+.submit {
+    position: absolute;
+    bottom: 15px; 
+    right: 15px; 
+    background-color: var(--col-main-green); 
+    color: var(--font-white); 
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background-color: var(--col-main-green-hover);
+    transition: all 0.3s ease-in-out;
 }
 
 /*--------end of pageFloor--------*/
